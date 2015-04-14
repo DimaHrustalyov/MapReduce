@@ -7,15 +7,15 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>json</artifactId>
+	<artifactId>word-count</artifactId>
 	<packaging>jar</packaging>
 
-	<name>json</name>
+	<name>word-count</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<main.class>com.hrustalyov.main.Run</main.class>
-		<jar.name>json-job</jar.name>
+		<main.class>com.hrustalyov.main.WordCount</main.class>
+		<jar.name>word-count-job</jar.name>
 	</properties>
 
 	<dependencies>
@@ -25,12 +25,6 @@
 			<artifactId>hadoop-core</artifactId>
 			<version>1.2.1</version>
 			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20090211</version>
 		</dependency>
 
 	</dependencies>
@@ -82,4 +76,3 @@
 		</plugins>
 	</build>
 </project>
-

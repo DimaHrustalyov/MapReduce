@@ -30,8 +30,6 @@ public class Map extends Mapper<Object, Text, Text, Text> {
 				context.write(new Text(word), new Text(fileName));
 			}
 		}
-
-
 	}
 
 	private List<TextFile> getTextFiles(String[] tuple) {

@@ -9,6 +9,7 @@
 
 	<modules>
 		<module>json</module>
+		<module>word-count</module>
 	</modules>
 
 	<name>MapReduce</name>
