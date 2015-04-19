@@ -1,19 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>MapReduce</artifactId>
+		<groupId>com.hrustalyov</groupId>
+		<version>1.0</version>
+	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.hrustalyov</groupId>
-	<artifactId>MapReduce</artifactId>
-	<version>1.0</version>
-	<packaging>pom</packaging>
+	<artifactId>hive_scripts</artifactId>
+	<packaging>jar</packaging>
 
-	<modules>
-		<module>json</module>
-		<module>word-count</module>
-		<module>hive_scripts</module>
-	</modules>
-
-	<name>MapReduce</name>
+	<name>hive_scripts</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
